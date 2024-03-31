@@ -21,22 +21,6 @@ def main():
     # current puzzle
     room = 0
 
-    # background for game
-    # story = "The Great Star of Africa, the world's largest diamond, \
-# is normally the most well-guarded treasure in the entire world. \
-# Many thieves have tried and failed to even come close to this prized possession. \
-# Buried behind layers and layers of security, there's no way in or out. \
-# Everything changed when the news broke that a deal was signed to sell this diamond \
-# to a rich Vegas Baron. The diamond will be transferred to a neutral vault \
-# in a Vegas casino before being taken to lockdown - a once-in-a-lifetime chance. \
-# As a master thief, you cannot miss this opportunity to go down in history \
-# completing the greatest heist of all time.\n\n\
-# To steal the diamond, you must go through a series of rooms. \
-# Each room has a code word which must be entered to unlock the next room. \
-# You have 6 guesses in each room - every guess reveals information about the code word. \
-# If you do not find the code within this number of guesses, \
-# an alarm will go off and you will be caught. Good luck!"
-
     # how to play
     instructions = "You have 6 attempts to guess the word. \
 The guess must be a real word. Press enter/return to submit a guess. \
