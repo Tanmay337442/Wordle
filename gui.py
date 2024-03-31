@@ -1,15 +1,3 @@
-# Author: Tanmay Paramekanti
-# Date of completion: Jan 15, 2023
-# Course: ICS2O1 - Grade 10 Computer Studies
-# Description:
-# This program challenges the user to solve
-# Wordle-like puzzles - the user must guess a word 
-# based on clues given with each guess (grey letters are not 
-# in the word, yellow ones are present but not in the correct
-# place, and green ones are correct). After each puzzle is
-# solved, the user advances to the next one. After all 9
-# puzzles are successfully completed, the user wins.
-
 from tkinter import (Button, Frame, Label, Menu, Tk, messagebox)
 import logic,  random
 
